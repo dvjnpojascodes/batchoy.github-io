@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  background: #EFEDD9;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+  padding: 20px 60px;
+}
+
+.logo {
+  position: relative;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+header ul li a {
+  color: #B0A4A4;
+  font-size: 1em;
+  font-weight: 550;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #969696;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 200px 60px;
+}
+
+.info .message {
+  font-size: 0.4em;
+  font-style: italic;
+  margin-top: 1em;
+}
+
+.info .socmed {
+  font-size: 0.4em;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2C1B11;
+}
+
+.info .socmed:hover {
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.info h2  {
+  font-size: 3em;
+}
+
+#id {
+  padding: 0 10px;
+  font-weight: bold;
+  margin-top: -40px;
+}
+
+.imgBx {
+  width: 25px;
+  height: 25px;
+}
+
+.form legend {
+  padding: 40px 60px;
+    background: #ddbea9;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2C1B11;
+}
+
+.form p {
+  padding: 20px 70px;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.form {
+  margin-top: -100px;
+}
+
+
+form {
+  border: 1px solid #000000;
+  background: #ddbea9;
+  margin: 0 90px;
+  text-align: center;
+}
+
+form label {
+   background: #ddbea9;
+   padding: 5px 25px;
+   font-size: 0.8em;
+   font-weight: bold;
+  color: #2C1B11;
+}
+
+form input {
+  width: 50vw;
+  padding: 5px;
+  margin-bottom: 1em;
+  border-radius: 0.4em;
+  border: 2px solid #D0A68A;
+}
+
+textarea {
+  width: 50vw;
+  height: 150px;
+  border-radius: 0.4em;
+  resize: none;
+  margin-left: 15px;
+  border: 2px solid #D0A68A;
+}
+
+input:focus{
+  border-color: : #583622;
+  box-shadow: 0 0 10px #583622;
+}
+
+textarea:focus{
+  border-color: : #583622;
+  box-shadow: 0 0 10px #583622;
+}
+
+button {
+  padding: 10px 60px;
+  margin: 2em;
+  border-radius: 0.4em;
+  color: #333;
+  font-weight: bold;
+  background: #D0A68A;
+  border-color: #D0A68A;
+  transition: 0.5s;
+}
+
+
+
+button:hover {
+    background: #333;
+    color: #fff;
+    border-color: #333;
+    letter-spacing: 2px;
+  }
+
+}
+
+ @media (max-width: 610px) {
+
+  .info p {
+    padding: 0 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.info h2 {
+   font-size: 2em;
+}
+
+
+}
